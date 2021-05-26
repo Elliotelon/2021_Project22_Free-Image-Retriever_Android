@@ -29,5 +29,8 @@ data class User(
     @SerializedName("updated_at")
     val updatedAt: String?,
     @SerializedName("username")
-    val username: String?
+    val username: String?,
+    @SerializedName("profile_image")
+    val profileImageUrls: ProfileImageUrls?
+
 )
